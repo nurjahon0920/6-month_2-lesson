@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto-Regular.ttf");
+}
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1220px;
+}
+a {
+  text-decoration: none;
+}
+li,
+ul,
+ol {
+  list-style: none;
+}
+button {
+  cursor: pointer;
+}
