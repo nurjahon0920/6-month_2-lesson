@@ -33,12 +33,14 @@
 
 .sec1-bottom {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 28px;
 }
 
 .call_us_now {
   display: flex;
+  flex-wrap: wrap;
 }
 .call_us_now img {
   box-shadow: 0px 4px 10px 0px rgba(20, 20, 43, 0.0392156863);
@@ -70,9 +72,11 @@ header .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 header .container .header-left {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 40px;
   margin: 38px 0;
@@ -83,6 +87,7 @@ header .container .header-left .header-links a {
 }
 header .container .header-right {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 24px;
 }
@@ -92,6 +97,7 @@ header .container .header-right p {
 
 main .container .sec1 {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 40px;
   position: relative;
@@ -137,8 +143,9 @@ main .container .sec2 p {
   margin: 0 auto;
 }
 main .container .sec2 .cards {
-  margin-top: 58px;
   display: flex;
+  flex-wrap: wrap;
+  margin-top: 58px;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 56px;
@@ -160,6 +167,7 @@ main .container .sec2 .global_btn {
 }
 main .container .sec3 .sec3-top {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 76px;
@@ -172,6 +180,7 @@ main .container .sec3 .sec3-top h2 {
 }
 main .container .sec3 .cards {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   gap: 28px;
@@ -201,6 +210,7 @@ main .container .sec3 .cards .card p {
 }
 main .container .sec4 {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   border-radius: 24px;
   background-color: #211f54;
@@ -251,7 +261,9 @@ main .container .line {
 }
 main .container .sec5 .sec5_top {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin-bottom: 92px;
 }
 main .container .sec5 .sec5_top h2 {
@@ -263,6 +275,7 @@ main .container .sec5 .sec5_top h2 {
 }
 main .container .sec5 .sec5_top_right {
   display: flex;
+  flex-wrap: wrap;
   gap: 28px;
 }
 main .container .sec5 .sec5_top_right .global_btn2 {
@@ -271,6 +284,7 @@ main .container .sec5 .sec5_top_right .global_btn2 {
 }
 main .container .sec5 .cards {
   display: flex;
+  flex-wrap: wrap;
   gap: 28px;
 }
 main .container .sec5 .cards .card .sec5_img {
@@ -303,6 +317,7 @@ main .container .sec5 .cards .card .sec5_content p {
   color: #6e7191;
 }
 main .container .sec5 .cards .card .sec5_content .sec5_bottom {
+  flex-wrap: wrap;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -315,6 +330,7 @@ main .container .sec5 .cards #card2 {
 }
 main .container .sec6 {
   display: flex;
+  flex-wrap: wrap;
   margin-top: 303px;
   padding: 131px 0 112px 0;
   justify-content: space-between;
@@ -420,9 +436,9 @@ main .container .sec6 .sec6_right form .submit {
 }
 main .container .sec7 {
   display: flex;
+  flex-wrap: wrap;
   align-items: start;
   justify-content: space-between;
-  display: flex;
   justify-content: space-between;
   margin-bottom: 120px;
 }
@@ -495,4 +511,29 @@ main .container .sec7_group4 button {
   padding: 26px 38px;
   width: 256px;
   height: 72px;
+}
+
+footer .line {
+  width: 1220px;
+  height: 1px;
+  text-align: center;
+  margin: 0 auto;
+  background: #eff0f6;
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 43px 0 30px 0;
+  align-items: center;
+  flex-wrap: wrap;
+}
+footer .container .footer_right {
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+}
+footer .container .footer_right a {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30.01px;
 }/*# sourceMappingURL=App.css.map */

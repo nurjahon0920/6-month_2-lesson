@@ -1,7 +1,6 @@
 import { useState } from "react";
-import "./App.css";
-import { Header } from "./components/header";
-import { Footer } from "./components/footer";
+import sec1_bg from "./assets/sec1/sec1-bg.png";
+import "./App.scss";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -12,7 +11,25 @@ function App() {
 
   return (
     <>
-      <Header />
+      {/* <Header /> */}
+      <header>
+        <div className="container">
+          <div className="header-left">
+            <img src="LOGO.png" alt="LOGO" />
+            <div className="header-links">
+              <a href="#">Home</a>
+              <a href="#About">About</a>
+              <a href="#Services">Services</a>
+              <a href="#Articles">Articles</a>
+              <a href="#Contact">Contact</a>
+            </div>
+          </div>
+          <div className="header-right">
+            <p onClick={() => setCount(count + 1)}>Cart ({count})</p>
+            <button className="global_btn">Get a free quote</button>
+          </div>
+        </div>
+      </header>
       <main>
         <div className="container">
           <section className="sec1">
@@ -38,7 +55,7 @@ function App() {
               </div>
             </div>
             <div className="sec1-right">
-              <img src="./src/assets/sec1/sec1-bg.png" alt="Background" />
+              <img src={sec1_bg} alt="Background" />
             </div>
           </section>
           <section className="sec2" id="About">
@@ -320,7 +337,24 @@ function App() {
           </section>
         </div>
       </main>
-      <Footer />
+      <footer>
+        <div className="line"></div>
+        <div className="container">
+          <img src="LOGO.png" alt="LOGO" />
+          <div className="footer_right">
+            <p>Copyright © Cleaning X | Designed by</p>
+            <a href="#" className="footer_a1">
+              BRIX Templates
+            </a>
+            <a href="#" className="footer_a2">
+              Webflow
+            </a>
+            <a href="#" className="footer_a3">
+              Licenses
+            </a>
+          </div>
+        </div>
+      </footer>
     </>
   );
 }

@@ -31,11 +31,13 @@
 }
 .sec1-bottom {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 28px;
 }
 .call_us_now {
   display: flex;
+  flex-wrap: wrap;
   img {
     box-shadow: 0px 4px 10px 0px #14142b0a;
     border: 1px solid #dcddeb;
@@ -64,9 +66,10 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    flex-wrap: wrap;
     .header-left {
       display: flex;
+      flex-wrap: wrap;
       align-items: center;
       gap: 40px;
       margin: 38px 0;
@@ -79,6 +82,7 @@ header {
     }
     .header-right {
       display: flex;
+      flex-wrap: wrap;
       align-items: center;
       gap: 24px;
       p {
@@ -91,6 +95,7 @@ main {
   .container {
     .sec1 {
       display: flex;
+      flex-wrap: wrap;
       align-items: center;
       gap: 40px;
       position: relative;
@@ -142,8 +147,9 @@ main {
         // max-width: 648px;
       }
       .cards {
-        margin-top: 58px;
         display: flex;
+        // flex-wrap: wrap;
+        margin-top: 58px;
         align-items: center;
         justify-content: space-between;
         margin-bottom: 56px;
@@ -167,6 +173,7 @@ main {
     .sec3 {
       .sec3-top {
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
         justify-content: space-between;
         margin-bottom: 76px;
@@ -179,6 +186,7 @@ main {
       }
       .cards {
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
         justify-content: space-between;
         gap: 28px;
@@ -209,6 +217,7 @@ main {
     }
     .sec4 {
       display: flex;
+      flex-wrap: wrap;
       align-items: center;
       border-radius: 24px;
       background-color: #211f54;
@@ -263,6 +272,7 @@ main {
     .sec5 {
       .sec5_top {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
         margin-bottom: 92px;
         h2 {
@@ -274,6 +284,7 @@ main {
         }
         &_right {
           display: flex;
+          flex-wrap: wrap;
           gap: 28px;
           .global_btn2 {
             color: #211f54;
@@ -283,6 +294,7 @@ main {
       }
       .cards {
         display: flex;
+        // flex-wrap: wrap;
         gap: 28px;
         .card {
           .sec5_img {
@@ -314,6 +326,7 @@ main {
               color: #6e7191;
             }
             .sec5_bottom {
+              flex-wrap: wrap;
               display: flex;
               justify-content: space-between;
               align-items: center;
@@ -332,6 +345,7 @@ main {
     }
     .sec6 {
       display: flex;
+      // flex-wrap: wrap;
       margin-top: 303px;
       padding: 131px 0 112px 0;
       justify-content: space-between;
@@ -442,9 +456,9 @@ main {
     }
     .sec7 {
       display: flex;
+      flex-wrap: wrap;
       align-items: start;
       justify-content: space-between;
-      display: flex;
       justify-content: space-between;
       margin-bottom: 120px;
       h2 {
@@ -518,6 +532,35 @@ main {
           width: 256px;
           height: 72px;
         }
+      }
+    }
+  }
+}
+footer {
+  .line {
+    width: 1220px;
+    height: 1px;
+    text-align: center;
+    margin: 0 auto;
+    background: #eff0f6;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 43px 0 30px 0;
+    align-items: center;
+    flex-wrap: wrap;
+    img {
+      // text-align: left;
+    }
+    .footer_right {
+      flex-wrap: wrap;
+      display: flex;
+      align-items: center;
+      a {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30.01px;
       }
     }
   }
