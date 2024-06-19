@@ -20,7 +20,6 @@ function App() {
   const formSubmit = () => {
     document.forms["myForm"].submit();
   };
-
   return (
     <>
       {/* <Header /> */}
@@ -136,7 +135,7 @@ function App() {
             </div>
           </section>
           <section className="sec4">
-            <img src={sec4_bg} alt="Background" />
+            <img src={sec4_bg} alt="Background" className="sec4_img" />
             <div className="sec4-text">
               <h5>Covid-19 sanitization</h5>
               <h2>
@@ -174,7 +173,7 @@ function App() {
                   alt="Vacuum cleaner"
                   className="card_img"
                 />
-                <div className="sec5_content">
+                <div className="sec5_content sec5_content1">
                   <h3>
                     8 best vacuum cleaners to clean any mess for your home in
                     2022
@@ -195,7 +194,7 @@ function App() {
                   alt="Disinfecting phone"
                   className="card_img"
                 />
-                <div className="sec5_content">
+                <div className="sec5_content sec5_content2">
                   <h3>
                     How to properly disinfect your phone and other electronics
                   </h3>
