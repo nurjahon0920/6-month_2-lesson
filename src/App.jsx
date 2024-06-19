@@ -1,5 +1,17 @@
 import { useState } from "react";
 import sec1_bg from "./assets/sec1/sec1-bg.png";
+import telefon_icon from "./assets/sec1/telefon-icon.svg";
+import sec2_img1 from "./assets/sec2/sec2-img1.png";
+import sec2_img2 from "./assets/sec2/sec2-img2.png";
+import sec2_img3 from "./assets/sec2/sec2-img3.png";
+import sec3_img1 from "./assets/sec3/sec3-img1.png";
+import sec3_img2 from "./assets/sec3/sec3-img2.png";
+import sec3_img3 from "./assets/sec3/sec3-img3.png";
+import sec4_bg from "./assets/sec4/sec4-bg.png";
+import sec5_img1 from "./assets/sec5/sec5-img1.png";
+import sec5_img2 from "./assets/sec5/sec5-img2.png";
+import shakl1 from "./assets/sec5/shakl.svg";
+import shakl2 from "./assets/sec7/shakl.png";
 import "./App.scss";
 
 function App() {
@@ -43,10 +55,7 @@ function App() {
               <div className="sec1-bottom">
                 <button className="global_btn">Get a free quote</button>
                 <div className="call_us_now">
-                  <img
-                    src="./src/assets/sec1/telefon-icon.svg"
-                    alt="Phone Icon"
-                  />
+                  <img src={telefon_icon} alt="Phone Icon" />
                   <div className="call_right">
                     <p>Call us now</p>
                     <h4>(414) 567 - 2109</h4>
@@ -67,10 +76,7 @@ function App() {
             </p>
             <div className="cards">
               <div className="card">
-                <img
-                  src="./src/assets/sec2/sec2-img1.png"
-                  alt="Schedule online"
-                />
+                <img src={sec2_img1} alt="Schedule online" />
                 <h4>1. Schedule online</h4>
                 <p>
                   Sagittis nibh scelerisque vitae egetolment vulputate sem
@@ -78,10 +84,7 @@ function App() {
                 </p>
               </div>
               <div className="card">
-                <img
-                  src="./src/assets/sec2/sec2-img2.png"
-                  alt="Pay online easily"
-                />
+                <img src={sec2_img2} alt="Pay online easily" />
                 <h4>2. Pay online easily</h4>
                 <p>
                   Vitae ut accumsan blandit ullamcorperolm suscipit dui gravida
@@ -89,10 +92,7 @@ function App() {
                 </p>
               </div>
               <div className="card">
-                <img
-                  src="./src/assets/sec2/sec2-img3.png"
-                  alt="Get your house cleaned"
-                />
+                <img src={sec2_img3} alt="Get your house cleaned" />
                 <h4>3. Get your house cleaned</h4>
                 <p>
                   Nunc maecenas sollicitudin metus tellus mattis sed porttitor
@@ -110,10 +110,7 @@ function App() {
             </div>
             <div className="cards">
               <div className="card">
-                <img
-                  src="./src/assets/sec3/sec3-img1.png"
-                  alt="House cleaning"
-                />
+                <img src={sec3_img1} alt="House cleaning" />
                 <h5>House cleaning</h5>
                 <p>
                   Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
@@ -121,10 +118,7 @@ function App() {
                 </p>
               </div>
               <div className="card">
-                <img
-                  src="./src/assets/sec3/sec3-img2.png"
-                  alt="Office cleaning"
-                />
+                <img src={sec3_img2} alt="Office cleaning" />
                 <h5>Office cleaning</h5>
                 <p>
                   Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
@@ -132,10 +126,7 @@ function App() {
                 </p>
               </div>
               <div className="card">
-                <img
-                  src="./src/assets/sec3/sec3-img3.png"
-                  alt="Industrial cleaning"
-                />
+                <img src={sec3_img3} alt="Industrial cleaning" />
                 <h5>Industrial cleaning</h5>
                 <p>
                   Lorem ipsum dolor sit amet consecte tur adipiscing elit semper
@@ -145,7 +136,7 @@ function App() {
             </div>
           </section>
           <section className="sec4">
-            <img src="./src/assets/sec4/sec4-bg.png" alt="Background" />
+            <img src={sec4_bg} alt="Background" />
             <div className="sec4-text">
               <h5>Covid-19 sanitization</h5>
               <h2>
@@ -158,10 +149,7 @@ function App() {
               <div className="sec1-bottom">
                 <button className="global_btn">Get a free quote</button>
                 <div className="call_us_now">
-                  <img
-                    src="./src/assets/sec1/telefon-icon.svg"
-                    alt="Phone Icon"
-                  />
+                  <img src={telefon_icon} alt="Phone Icon" />
                   <div className="call_right">
                     <p>Call us now</p>
                     <h4>(414) 567 - 2109</h4>
@@ -182,7 +170,7 @@ function App() {
             <div className="cards">
               <div className="card" id="card1">
                 <img
-                  src="./src/assets/sec5/sec5-img1.png"
+                  src={sec5_img1}
                   alt="Vacuum cleaner"
                   className="card_img"
                 />
@@ -197,13 +185,13 @@ function App() {
                   </p>
                   <div className="sec5_bottom">
                     <h4>Jan 28, 2022</h4>
-                    <img src="./src/assets/sec5/shakl.svg" alt="Icon" />
+                    <img src={shakl1} alt="Icon" />
                   </div>
                 </div>
               </div>
               <div className="card" id="card2">
                 <img
-                  src="./src/assets/sec5/sec5-img2.png"
+                  src={sec5_img2}
                   alt="Disinfecting phone"
                   className="card_img"
                 />
@@ -217,7 +205,7 @@ function App() {
                   </p>
                   <div className="sec5_bottom">
                     <h4>Feb 1, 2022</h4>
-                    <img src="./src/assets/sec5/shakl.svg" alt="Icon" />
+                    <img src={shakl1} alt="Icon" />
                   </div>
                 </div>
               </div>
@@ -231,10 +219,7 @@ function App() {
                 pellentesque lacus duis pharetra eutortor.
               </p>
               <div className="call_us_now">
-                <img
-                  src="./src/assets/sec1/telefon-icon.svg"
-                  alt="Phone Icon"
-                />
+                <img src={telefon_icon} alt="Phone Icon" />
                 <div className="call_right">
                   <p>Call us now</p>
                   <h4>(414) 567 - 2109</h4>
@@ -308,7 +293,7 @@ function App() {
                 Lorem ipsum dolor sit amet cteturdo adipiscing elit, sed do
                 eiusmo.
               </p>
-              <img src="./src/assets/sec7/shakl.png" alt="shakl" />
+              <img src={shakl2} alt="shakl" />
             </div>
             <div className="sec7_group2">
               <h3>Contact us</h3>
